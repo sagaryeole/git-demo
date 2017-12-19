@@ -1,0 +1,24 @@
+<soapenv:Envelope xmlns:soapenv="http://schemas.xmlsoap.org/soap/envelope/" xmlns:ns="http://schemas.streamserve.com/webservice/interfaces/jobsubmitcontent/base64/1.0" xmlns:ns1="http://schemas.streamserve.com/public/1.0">
+  <soapenv:Header>
+    <wsse:Security xmlns:wsse="http://docs.oasis-open.org/wss/2004/01/oasis-200401-wss-wssecurity-secext-1.0.xsd" xmlns:wsseu="http://docs.oasis-open.org/wss/2004/01/oasis-200401-wss-wssecurity-utility-1.0.xsd">
+      <wsse:UsernameToken wsseu:Id="UsernameToken-1">
+        <wsse:Username>servicesiamipxmlgw</wsse:Username>
+        <wsse:Password Type="http://docs.oasis-open.org/wss/2004/01/oasis-200401-wss-username-token-profile-1.0#PasswordText">9eK5D3KAchutuxen3k</wsse:Password>
+      </wsse:UsernameToken>
+    </wsse:Security>
+    <NS1:InvoiceNumber xmlns:NS1="http://xmlns.scania.com/corporate/schema/document/msgs/v2">PING000001</NS1:InvoiceNumber>
+  </soapenv:Header>
+  <soapenv:Body>
+    <ns:SubmitJobsContentRequestType>
+      <jobs>
+        <job>
+          <content contentType="text/xml">
+            <content>77u/PD94bWwgdmVyc2lvbj0iMS4wIiBlbmNvZGluZz0idXRmLTgiPz48UHJvY2Vzc1JlcXVlc3QgeG1sbnM6eHNkPSJodHRwOi8vd3d3LnczLm9yZy8yMDAxL1hNTFNjaGVtYSIgeG1sbnM6eHNpPSJodHRwOi8vd3d3LnczLm9yZy8yMDAxL1hNTFNjaGVtYS1pbnN0YW5jZSIgeG1sbnM9Imh0dHA6Ly94bWxucy5zY2FuaWEuY29tL3RyZWFzdXJ5L3NjaGVtYS9pbnZvaWNlL3YyIj48QWN0aW9ucz48QWN0aW9uPkNyZWF0ZVBkZjwvQWN0aW9uPjxEaXN0cmlidXRpb25PcHRpb25zPjxEaXN0cmlidXRlVG8+RW1haWw8L0Rpc3RyaWJ1dGVUbz48RW1haWxPcHRpb25zPjxFbWFpbFRvPmRhcnNoYW4ueWVvbGVAc2NhbmlhLmNvbTwvRW1haWxUbz48RW1haWxGcm9tPnNlaS50ZXN0QHNjYW5pYS5jb208L0VtYWlsRnJvbT48Q29udGVudExhbmd1YWdlPmVuLUdCPC9Db250ZW50TGFuZ3VhZ2U+PC9FbWFpbE9wdGlvbnM+PC9EaXN0cmlidXRpb25PcHRpb25zPjxDcmVhdGVPcHRpb25zPjxJbnZvaWNlVHlwZT5tb2RlbDNzdmFzPC9JbnZvaWNlVHlwZT48TGFuZ3VhZ2U+ZnItRlI8L0xhbmd1YWdlPjxUZXJtcz5UZXJtc0ZyYW5jZUZyPC9UZXJtcz48TGVnYWw+TGVnYWxGcmFuY2VGcjwvTGVnYWw+PC9DcmVhdGVPcHRpb25zPjwvQWN0aW9ucz48UHJvY2Vzc0ludm9pY2U+PEFwcGxpY2F0aW9uQXJlYSB4bWxucz0iaHR0cDovL3d3dy5vcGVuYXBwbGljYXRpb25zLm9yZy9vYWdpcy85Ij48U2VuZGVyPjxSZWZlcmVuY2VJRD5PUkFDTEVfRUJTPC9SZWZlcmVuY2VJRD48L1NlbmRlcj48UmVjZWl2ZXI+PElEPlN0cmVhbVNlcnZlPC9JRD48L1JlY2VpdmVyPjxDcmVhdGlvbkRhdGVUaW1lPjIwMTUtMDgtMTc8L0NyZWF0aW9uRGF0ZVRpbWU+PC9BcHBsaWNhdGlvbkFyZWE+PERhdGFBcmVhPjxQcm9jZXNzIHhtbG5zPSJodHRwOi8vd3d3Lm9wZW5hcHBsaWNhdGlvbnMub3JnL29hZ2lzLzkiIC8+PEludm9pY2UgdHlwZT0iSW52b2ljZSIgeG1sbnM9Imh0dHA6Ly93d3cub3BlbmFwcGxpY2F0aW9ucy5vcmcvb2FnaXMvOSI+PEludm9pY2VIZWFkZXI+PERvY3VtZW50SUQ+PElEPlBJTkcwMDAwMDE8L0lEPjwvRG9jdW1lbnRJRD48RGVzY3JpcHRpb24gLz48U3VwcGxpZXJQYXJ0eT48TmFtZT5TQ0FOSUEgQ1YgQUIgSEVBRCBPRkZJQ0U8L05hbWU+PC9TdXBwbGllclBhcnR5PjwvSW52b2ljZUhlYWRlcj48L0ludm9pY2U+PC9EYXRhQXJlYT48L1Byb2Nlc3NJbnZvaWNlPjxTY2FuaWFTcGVjaWZpYz48TG9nb0lkPlNjYW5pYUlPPC9Mb2dvSWQ+PC9TY2FuaWFTcGVjaWZpYz48L1Byb2Nlc3NSZXF1ZXN0Pg==</content>
+          </content>
+          <submitType>FireAndWaitResult</submitType>
+        </job>
+      </jobs>
+      <serviceURI>http://schemas.streamserve.com/uid/service/externalqueuing/1.0/SEIWS</serviceURI>
+    </ns:SubmitJobsContentRequestType>
+  </soapenv:Body>
+</soapenv:Envelope>
